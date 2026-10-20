@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面找不到了 | 屈佳鑫 作品集</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // 旧地址自动纠正：/portfolio/xxx 这类路径重定向到主页
+    (function () {
+      var p = window.location.pathname;
+      if (/\/portfolio(\/|$)/.test(p)) {
+        window.location.replace('/Protfolio/');
+      }
+    })();
+  </script>
+  <style>
+    :root { --bg: #0a0a0a; --text: #f0f0f0; --muted: #888; --accent: #4d9fff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      text-align: center;
+      padding: 32px;
+    }
+    .code {
+      font-size: clamp(64px, 16vw, 132px);
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      background: linear-gradient(180deg, #f0f0f0, #4a4a4a);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p { color: var(--muted); font-size: 15px; margin-top: 18px; }
+    .links { margin-top: 30px; display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; font-size: 14px; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(77, 159, 255, 0.4);
+      padding-bottom: 1px;
+    }
+    a:hover { border-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="code">404</div>
+    <p>这个地址不存在，可能页面已经调整过位置。</p>
+    <div class="links">
+      <a href="/Protfolio/">返回作品集主页</a>
+      <a href="/Protfolio/kit/">设计系统</a>
+    </div>
+  </div>
+</body>
+</html>

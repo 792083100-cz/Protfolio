@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>屈佳鑫 | 个人作品集</title>
+  <link rel="canonical" href="https://792083100-cz.github.io/Protfolio/">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=../">
+  <script>
+    // 保留锚点与查询参数，跳到作品集主页
+    (function () {
+      var target = '../' + (window.location.hash || '');
+      window.location.replace(target);
+    })();
+  </script>
+  <style>
+    :root { --bg: #0a0a0a; --text: #f0f0f0; --muted: #888; --accent: #4d9fff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      text-align: center;
+      padding: 24px;
+    }
+    p { font-size: 14px; color: var(--muted); letter-spacing: 0.04em; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(77, 159, 255, 0.4);
+      padding-bottom: 1px;
+    }
+    .spark {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--accent);
+      margin: 0 auto 22px;
+      box-shadow: 0 0 0 5px rgba(77, 159, 255, 0.12);
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="spark"></div>
+    <p>正在进入作品集…　如果页面没有自动跳转，<a href="../">点这里</a></p>
+  </div>
+</body>
+</html>
