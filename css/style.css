@@ -670,6 +670,7 @@ button:focus-visible {
 .work-cover--travel { background-position: 33.5234% 20.1161%; }
 .work-image.work-cover--travel { background-image: url('../assets/travel-cover.jpg'); background-size: cover; background-position: center; }
 .work-cover--lumi { background-position: 66.6033% 20.1161%; }
+.work-image.work-cover--lumi { background-image: url('../assets/lumi-cover.jpg'); background-size: cover; background-position: center; }
 .work-image.work-cover--other { background-image: url('../assets/brand-cover.jpg'); background-size: cover; background-position: center; }
 
 .work-image--travel {
