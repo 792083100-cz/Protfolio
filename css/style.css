@@ -912,6 +912,18 @@ button:focus-visible {
   border: 1px solid var(--border);
 }
 
+.modal-images {
+  margin-top: 1rem;
+}
+
+.modal-images img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
 /* Contact */
 .contact-intro {
   color: var(--muted);

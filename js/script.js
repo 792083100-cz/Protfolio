@@ -130,7 +130,8 @@ const projectData = {
     subtitle: "品牌运营与 AI 设计系统",
     sections: [
       { heading: "运营设计", body: ["基于网盘品牌年轻化建设，借助S级品牌活动助力产品拉新，增强用户品牌认知。"] },
-      { heading: "设计系统建设", body: ["搭建面向 AI 生成与 Vibe Coding 的设计系统，封装成skills，覆盖10+业务场景。"] }
+      { heading: "设计系统建设", body: ["搭建面向 AI 生成与 Vibe Coding 的设计系统，封装成skills，覆盖10+业务场景。"] },
+      { heading: "案例：AI 贪吃蛇大作战 · 赛事视觉设计全案", images: ["assets/brand-detail.jpg"] }
     ]
   },
   designSystem: {
@@ -352,6 +353,13 @@ function openModal(projectKey) {
         html += `<li>${item}</li>`;
       });
       html += "</ul>";
+    }
+    if (section.images) {
+      html += '<div class="modal-images">';
+      section.images.forEach((src) => {
+        html += `<img src="${src}" alt="${section.heading}" loading="lazy">`;
+      });
+      html += "</div>";
     }
     html += "</div>";
   });
