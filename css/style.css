@@ -669,7 +669,7 @@ button:focus-visible {
 .work-cover--flicker { background-position: 0.3802% 20.1161%; }
 .work-cover--travel { background-position: 33.5234% 20.1161%; }
 .work-cover--lumi { background-position: 66.6033% 20.1161%; }
-.work-cover--other { background-position: 99.6831% 20.1161%; }
+.work-cover--other { background-image: url('../assets/brand-cover.jpg'); background-size: cover; background-position: center; }
 
 .work-image--travel {
   background: linear-gradient(135deg, #0c3a5e, #1a6fa8, #4d9fff);
